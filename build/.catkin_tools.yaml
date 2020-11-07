@@ -1,0 +1,6 @@
+devel_space: /home/dong/src/5qt/devel
+install: false
+install_space: /home/dong/src/5qt/install
+profile: default
+source_space: /home/dong/src/5qt/src
+workspace: /home/dong/src/5qt

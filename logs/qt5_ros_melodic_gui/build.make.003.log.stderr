@@ -1,0 +1,8 @@
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/mainwindow.cpp:[m[K In constructor ‘[01m[Knav_ui::MainWindow::MainWindow(int, char**, QWidget*)[m[K’:
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/mainwindow.cpp:21:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindowDesign[m[K’ has no member named ‘[01m[KtabWidget[m[K’; did you mean ‘[01m[KcentralWidget[m[K’?
+   ui.[01;31m[KtabWidget[m[K->setCurrentIndex(0); // ensure the first tab is showing - qt-designer should have this already hardwired, but often loses it (settings?).
+      [01;31m[K^~~~~~~~~[m[K
+      [32m[KcentralWidget[m[K
+make[2]: *** [CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/nav_ui_node.dir/all] Error 2
+make: *** [all] Error 2

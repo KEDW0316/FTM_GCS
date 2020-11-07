@@ -1,0 +1,8 @@
+CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: In function `nav_ui::MainWindow::qt_metacall(QMetaObject::Call, int, void**)':
+mocs_compilation.cpp:(.text+0x21a): undefined reference to `nav_ui::MainWindow::updateStateView()'
+CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: In function `nav_ui::MainWindow::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)':
+mocs_compilation.cpp:(.text+0x14e): undefined reference to `nav_ui::MainWindow::updateStateView()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node] Error 1
+make[1]: *** [CMakeFiles/nav_ui_node.dir/all] Error 2
+make: *** [all] Error 2

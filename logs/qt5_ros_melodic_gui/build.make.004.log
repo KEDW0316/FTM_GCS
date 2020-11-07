@@ -1,0 +1,31 @@
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[ 11%] [34m[1mAutomatic MOC for target nav_ui_node[0m
+[ 11%] Built target nav_ui_node_autogen
+[35m[1mScanning dependencies of target nav_ui_node[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable /home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node[0m
+CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: In function `nav_ui::MainWindow::qt_metacall(QMetaObject::Call, int, void**)':
+mocs_compilation.cpp:(.text+0x21a): undefined reference to `nav_ui::MainWindow::updateStateView()'
+CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: In function `nav_ui::MainWindow::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)':
+mocs_compilation.cpp:(.text+0x14e): undefined reference to `nav_ui::MainWindow::updateStateView()'
+collect2: error: ld returned 1 exit status
+CMakeFiles/nav_ui_node.dir/build.make:229: recipe for target '/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node' failed
+make[2]: *** [/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node] Error 1
+CMakeFiles/Makefile2:82: recipe for target 'CMakeFiles/nav_ui_node.dir/all' failed
+make[1]: *** [CMakeFiles/nav_ui_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

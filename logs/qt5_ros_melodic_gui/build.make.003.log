@@ -1,0 +1,33 @@
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[ 11%] [34m[1mAutomatic MOC for target nav_ui_node[0m
+[ 11%] Built target nav_ui_node_autogen
+[ 22%] [34m[1mGenerating ui_mainwindow.h[0m
+[35m[1mScanning dependencies of target nav_ui_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/nav_ui_node.dir/src/main.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o[0m
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/mainwindow.cpp:[m[K In constructor ‘[01m[Knav_ui::MainWindow::MainWindow(int, char**, QWidget*)[m[K’:
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/mainwindow.cpp:21:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::MainWindowDesign[m[K’ has no member named ‘[01m[KtabWidget[m[K’; did you mean ‘[01m[KcentralWidget[m[K’?
+   ui.[01;31m[KtabWidget[m[K->setCurrentIndex(0); // ensure the first tab is showing - qt-designer should have this already hardwired, but often loses it (settings?).
+      [01;31m[K^~~~~~~~~[m[K
+      [32m[KcentralWidget[m[K
+CMakeFiles/nav_ui_node.dir/build.make:96: recipe for target 'CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o' failed
+make[2]: *** [CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o] Error 1
+CMakeFiles/Makefile2:82: recipe for target 'CMakeFiles/nav_ui_node.dir/all' failed
+make[1]: *** [CMakeFiles/nav_ui_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

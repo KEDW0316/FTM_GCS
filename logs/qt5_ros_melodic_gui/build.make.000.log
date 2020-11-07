@@ -1,0 +1,85 @@
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nav_ui_node_autogen[0m
+[ 11%] [34m[1mAutomatic MOC for target nav_ui_node[0m
+[ 11%] Built target nav_ui_node_autogen
+[ 22%] [34m[1mGenerating ui_mainwindow.h[0m
+[ 33%] [34m[1mGenerating qrc_images.cpp[0m
+[35m[1mScanning dependencies of target nav_ui_node[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/nav_ui_node.dir/src/qnode.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/nav_ui_node.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/nav_ui_node.dir/qrc_images.cpp.o[0m
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:[m[K In member function ‘[01m[Kbool nav_ui::QNode::ee_target_pos(float, float, float, float, float)[m[K’:
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:60:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kee_y[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::ee_target_pos(float [01;35m[Kee_y[m[K, float ee_x, float ee_z,  float ee_phi, float ee_theta){
+                                 [01;35m[K^~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:60:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kee_x[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::ee_target_pos(float ee_y, float [01;35m[Kee_x[m[K, float ee_z,  float ee_phi, float ee_theta){
+                                             [01;35m[K^~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:60:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kee_z[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::ee_target_pos(float ee_y, float ee_x, float [01;35m[Kee_z[m[K,  float ee_phi, float ee_theta){
+                                                         [01;35m[K^~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:60:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kee_phi[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::ee_target_pos(float ee_y, float ee_x, float ee_z,  float [01;35m[Kee_phi[m[K, float ee_theta){
+                                                                      [01;35m[K^~~~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:60:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kee_theta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::ee_target_pos(float ee_y, float ee_x, float ee_z,  float ee_phi, float [01;35m[Kee_theta[m[K){
+                                                                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:[m[K In member function ‘[01m[Kbool nav_ui::QNode::joint_target_pos(float, float, float, float, float)[m[K’:
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:64:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kq_y[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::joint_target_pos(float [01;35m[Kq_y[m[K, float q_x, float q_alpha, float q_beta, float q_d){
+                                    [01;35m[K^~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:64:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kq_x[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::joint_target_pos(float q_y, float [01;35m[Kq_x[m[K, float q_alpha, float q_beta, float q_d){
+                                               [01;35m[K^~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:64:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kq_alpha[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::joint_target_pos(float q_y, float q_x, float [01;35m[Kq_alpha[m[K, float q_beta, float q_d){
+                                                          [01;35m[K^~~~~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:64:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kq_beta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::joint_target_pos(float q_y, float q_x, float q_alpha, float [01;35m[Kq_beta[m[K, float q_d){
+                                                                         [01;35m[K^~~~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:64:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kq_d[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::joint_target_pos(float q_y, float q_x, float q_alpha, float q_beta, float [01;35m[Kq_d[m[K){
+                                                                                       [01;35m[K^~~[m[K
+[100%] [32m[1mLinking CXX executable /home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node[0m
+CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: In function `nav_ui::MainWindow::qt_metacall(QMetaObject::Call, int, void**)':
+mocs_compilation.cpp:(.text+0x2e1): undefined reference to `nav_ui::MainWindow::on_ee_homing_clicked()'
+CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: In function `nav_ui::MainWindow::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)':
+mocs_compilation.cpp:(.text+0x1a1): undefined reference to `nav_ui::MainWindow::on_ee_homing_clicked()'
+collect2: error: ld returned 1 exit status
+CMakeFiles/nav_ui_node.dir/build.make:229: recipe for target '/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node' failed
+make[2]: *** [/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node] Error 1
+CMakeFiles/Makefile2:82: recipe for target 'CMakeFiles/nav_ui_node.dir/all' failed
+make[1]: *** [CMakeFiles/nav_ui_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
