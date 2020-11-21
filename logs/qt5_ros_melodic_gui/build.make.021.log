@@ -1,0 +1,30 @@
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _qt5_ros_melodic_gui_generate_messages_check_deps_log
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  6%] Built target qt5_ros_melodic_gui_generate_messages_lisp
+[ 12%] Built target qt5_ros_melodic_gui_generate_messages_nodejs
+[ 25%] Built target qt5_ros_melodic_gui_generate_messages_eus
+[ 37%] Built target qt5_ros_melodic_gui_generate_messages_py
+[ 43%] Built target qt5_ros_melodic_gui_generate_messages_cpp
+[ 50%] Built target qt5_ros_melodic_gui_generate_messages
+[ 50%] [34m[1mAutomatic MOC for target nav_ui_node[0m
+[ 50%] Built target nav_ui_node_autogen
+[35m[1mScanning dependencies of target nav_ui_node[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/nav_ui_node.dir/src/main.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node[0m
+[100%] Built target nav_ui_node

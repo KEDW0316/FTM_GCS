@@ -4,6 +4,7 @@
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: nav_ui_node_autogen/GEYRPXRMGI/moc_mainwindow.cpp
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: nav_ui_node_autogen/GEYRPXRMGI/moc_qnode.cpp
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: nav_ui_node_autogen/mocs_compilation.cpp
+CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /home/dong/src/5qt/devel/include/qt5_ros_melodic_gui/log.h
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/mainwindow.hpp
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/qnode.hpp
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point.h
@@ -187,6 +188,7 @@ CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/incl
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
+CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
@@ -210,6 +212,7 @@ CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/incl
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
+CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
 CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
@@ -233,6 +236,7 @@ CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o: ui_mainwi
 
 CMakeFiles/nav_ui_node.dir/qrc_images.cpp.o: qrc_images.cpp
 
+CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /home/dong/src/5qt/devel/include/qt5_ros_melodic_gui/log.h
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/mainwindow.hpp
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/qnode.hpp
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /home/dong/src/5qt/src/qt5_ros_melodic_gui/src/main.cpp
@@ -620,6 +624,7 @@ CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtW
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
+CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
@@ -643,6 +648,7 @@ CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtW
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
+CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
@@ -664,6 +670,7 @@ CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtW
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o: ui_mainwindow.h
 
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /home/dong/src/5qt/devel/include/qt5_ros_melodic_gui/log.h
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/mainwindow.hpp
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/qnode.hpp
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /home/dong/src/5qt/src/qt5_ros_melodic_gui/src/mainwindow.cpp
@@ -735,6 +742,7 @@ CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /opt/ros/melodic/include/std_sr
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
@@ -745,10 +753,13 @@ CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/q
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSize
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSizeF
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringListModel
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h
@@ -1050,12 +1061,39 @@ CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/q
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindow.h
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QSslConfiguration
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QSslPreSharedKeyAuthenticator
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkaccessmanager.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkrequest.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qssl.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslcertificate.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslconfiguration.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslerror.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslpresharedkeyauthenticator.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslsocket.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore/qtwebenginecoreglobal.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore/qwebenginecallback.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore/qwebenginehttprequest.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/QWebEnginePage
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/QWebEngineSettings
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/QWebEngineView
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/qtwebenginewidgetsglobal.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/qwebenginecertificateerror.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/qwebenginedownloaditem.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/qwebenginepage.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/qwebenginesettings.h
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/qwebengineview.h
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QAction
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCommonStyle
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
+CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
@@ -1202,6 +1240,7 @@ CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/q
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o: ui_mainwindow.h
 
+CMakeFiles/nav_ui_node.dir/src/qnode.cpp.o: /home/dong/src/5qt/devel/include/qt5_ros_melodic_gui/log.h
 CMakeFiles/nav_ui_node.dir/src/qnode.cpp.o: /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/qnode.hpp
 CMakeFiles/nav_ui_node.dir/src/qnode.cpp.o: /home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp
 CMakeFiles/nav_ui_node.dir/src/qnode.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point.h

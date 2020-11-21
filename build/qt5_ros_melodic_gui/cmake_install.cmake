@@ -129,6 +129,57 @@ file(INSTALL DESTINATION "/home/dong/src/5qt/install" TYPE FILE FILES "/home/don
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt5_ros_melodic_gui/msg" TYPE FILE FILES "/home/dong/src/5qt/src/qt5_ros_melodic_gui/msg/log.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt5_ros_melodic_gui/cmake" TYPE FILE FILES "/home/dong/src/5qt/build/qt5_ros_melodic_gui/catkin_generated/installspace/qt5_ros_melodic_gui-msg-paths.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/dong/src/5qt/devel/include/qt5_ros_melodic_gui")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/dong/src/5qt/devel/share/roseus/ros/qt5_ros_melodic_gui")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/dong/src/5qt/devel/share/common-lisp/ros/qt5_ros_melodic_gui")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/dong/src/5qt/devel/share/gennodejs/ros/qt5_ros_melodic_gui")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/dong/src/5qt/devel/lib/python2.7/dist-packages/qt5_ros_melodic_gui")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/dong/src/5qt/devel/lib/python2.7/dist-packages/qt5_ros_melodic_gui")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dong/src/5qt/build/qt5_ros_melodic_gui/catkin_generated/installspace/qt5_ros_melodic_gui.pc")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt5_ros_melodic_gui/cmake" TYPE FILE FILES "/home/dong/src/5qt/build/qt5_ros_melodic_gui/catkin_generated/installspace/qt5_ros_melodic_gui-msg-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt5_ros_melodic_gui/cmake" TYPE FILE FILES
+    "/home/dong/src/5qt/build/qt5_ros_melodic_gui/catkin_generated/installspace/qt5_ros_melodic_guiConfig.cmake"
+    "/home/dong/src/5qt/build/qt5_ros_melodic_gui/catkin_generated/installspace/qt5_ros_melodic_guiConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt5_ros_melodic_gui" TYPE FILE FILES "/home/dong/src/5qt/src/qt5_ros_melodic_gui/package.xml")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/qt5_ros_melodic_gui/nav_ui_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/qt5_ros_melodic_gui/nav_ui_node")
     file(RPATH_CHECK
@@ -154,6 +205,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dong/src/5qt/build/qt5_ros_melodic_gui/catkin_generated/installspace/qt5_ros_melodic_gui.pc")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qt5_ros_melodic_gui/cmake" TYPE FILE FILES "/home/dong/src/5qt/build/qt5_ros_melodic_gui/catkin_generated/installspace/qt5_ros_melodic_gui-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

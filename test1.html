@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+//전역 변수
+var map;
+var myLatlng;
+
+var marker = null;
+var inforwindow = null;
+
+function initMap() {
+
+        var myOptions = {
+        center: new google.maps.LatLng(36.36907, 127.37892),
+        zoom: 14,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        panControl: true,   // 위치 이동 가능여부 설정
+        zoomControl: true,  // 줌 설정 가능여부 설정
+        streetViewControl: false // 스트리트뷰 사용 가능여부 설정
+        };
+
+        map = new google.maps.Map(document.getElementById("map"),
+        myOptions);
+
+        // 맵을 클릭할 때 호출되는 리스너, 마커의 위치를 클릭 위치로 옮김
+        map.addListener('click', function(e) {
+        placeMarkerAndPanTo(e.latLng, map);
+        });
+}
+
+function placeMarkerAndPanTo(latLng, map) {
+        myLatlng = latLng;
+        var contentString = '<b>latitude: </b>'+latLng.lat()+'<br> <b>longitude: </b>'+latLng.lng();
+        if(marker == null){
+                //마커 생성
+                marker = new google.maps.Marker({
+                        position: latLng,
+                        map: map
+                });
+
+                //인포윈도우 생성
+                infowindow = new google.maps.InfoWindow({
+                        content: contentString
+                });
+
+        }
+        marker.setPosition(latLng);
+        map.panTo(latLng);
+        infowindow.setContent(contentString);
+        infowindow.open(map,marker);
+
+        // QT단에서 주입한 오브젝트를 통해 시그널 호출
+        locInfo.sltLocationChanged(latLng.lat(),latLng.lng(),1);
+}
+
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCaOF6CBwv11EhPcAvFwCoyrXBokMytg34&callback=initMap"
+        async defer></script>
+  </body>
+</html>

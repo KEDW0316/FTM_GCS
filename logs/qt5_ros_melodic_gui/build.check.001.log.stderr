@@ -1,0 +1,16 @@
+CMake Warning at /home/dong/src/5qt/src/qt5_ros_melodic_gui/CMakeLists.txt:30 (find_package):
+  Found package configuration file:
+
+    /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake
+
+  but it set Qt5_FOUND to FALSE so package "Qt5" is considered to be NOT
+  FOUND.  Reason given by package:
+
+  Failed to find Qt5 component "WebEengineWidgets" config file at
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5WebEengineWidgets/Qt5WebEengineWidgetsConfig.cmake"
+
+
+
+
+
+

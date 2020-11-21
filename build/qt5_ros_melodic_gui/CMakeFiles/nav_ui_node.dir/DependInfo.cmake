@@ -16,7 +16,15 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_CORE_LIB"
   "QT_GUI_LIB"
+  "QT_NETWORK_LIB"
   "QT_NO_DEBUG"
+  "QT_POSITIONING_LIB"
+  "QT_PRINTSUPPORT_LIB"
+  "QT_QML_LIB"
+  "QT_QUICK_LIB"
+  "QT_WEBCHANNEL_LIB"
+  "QT_WEBENGINECORE_LIB"
+  "QT_WEBENGINEWIDGETS_LIB"
   "QT_WIDGETS_LIB"
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
@@ -28,6 +36,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "/home/dong/src/5qt/src/qt5_ros_melodic_gui"
   "nav_ui_node_autogen/include"
+  "/home/dong/src/5qt/devel/include"
   "/home/dong/src/5qt/src/qt5_ros_melodic_gui/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
@@ -36,6 +45,14 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore"
+  "/usr/include/x86_64-linux-gnu/qt5/QtQuick"
+  "/usr/include/x86_64-linux-gnu/qt5/QtQml"
+  "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWebChannel"
+  "/usr/include/x86_64-linux-gnu/qt5/QtPositioning"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets"
+  "/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"
   )
 
 # Targets to which this target links.

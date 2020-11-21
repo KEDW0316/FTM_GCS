@@ -5,6 +5,7 @@ CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o
  /home/dong/src/5qt/build/qt5_ros_melodic_gui/nav_ui_node_autogen/GEYRPXRMGI/moc_mainwindow.cpp
  /home/dong/src/5qt/build/qt5_ros_melodic_gui/nav_ui_node_autogen/GEYRPXRMGI/moc_qnode.cpp
  /home/dong/src/5qt/build/qt5_ros_melodic_gui/nav_ui_node_autogen/mocs_compilation.cpp
+ /home/dong/src/5qt/devel/include/qt5_ros_melodic_gui/log.h
  /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/mainwindow.hpp
  /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/qnode.hpp
  /opt/ros/melodic/include/geometry_msgs/Point.h
@@ -188,6 +189,7 @@ CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
@@ -211,6 +213,7 @@ CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
@@ -234,6 +237,7 @@ CMakeFiles/nav_ui_node.dir/nav_ui_node_autogen/mocs_compilation.cpp.o
 CMakeFiles/nav_ui_node.dir/qrc_images.cpp.o
  /home/dong/src/5qt/build/qt5_ros_melodic_gui/qrc_images.cpp
 CMakeFiles/nav_ui_node.dir/src/main.cpp.o
+ /home/dong/src/5qt/devel/include/qt5_ros_melodic_gui/log.h
  /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/mainwindow.hpp
  /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/qnode.hpp
  /home/dong/src/5qt/src/qt5_ros_melodic_gui/src/main.cpp
@@ -621,6 +625,7 @@ CMakeFiles/nav_ui_node.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
@@ -644,6 +649,7 @@ CMakeFiles/nav_ui_node.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
@@ -665,6 +671,7 @@ CMakeFiles/nav_ui_node.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
  ui_mainwindow.h
 CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o
+ /home/dong/src/5qt/devel/include/qt5_ros_melodic_gui/log.h
  /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/mainwindow.hpp
  /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/qnode.hpp
  /home/dong/src/5qt/src/qt5_ros_melodic_gui/src/mainwindow.cpp
@@ -736,6 +743,7 @@ CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
@@ -746,10 +754,13 @@ CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSize
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSizeF
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringListModel
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCoreDepends
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h
@@ -1051,12 +1062,39 @@ CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QSslConfiguration
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QSslPreSharedKeyAuthenticator
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkaccessmanager.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkrequest.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qssl.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslcertificate.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslconfiguration.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslerror.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslpresharedkeyauthenticator.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslsocket.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore/qtwebenginecoreglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore/qwebenginecallback.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore/qwebenginehttprequest.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/QWebEnginePage
+ /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/QWebEngineSettings
+ /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/QWebEngineView
+ /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/qtwebenginewidgetsglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/qwebenginecertificateerror.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/qwebenginedownloaditem.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/qwebenginepage.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/qwebenginesettings.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets/qwebengineview.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QAction
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCommonStyle
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
@@ -1203,6 +1241,7 @@ CMakeFiles/nav_ui_node.dir/src/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
  ui_mainwindow.h
 CMakeFiles/nav_ui_node.dir/src/qnode.cpp.o
+ /home/dong/src/5qt/devel/include/qt5_ros_melodic_gui/log.h
  /home/dong/src/5qt/src/qt5_ros_melodic_gui/include/nav_ui/qnode.hpp
  /home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp
  /opt/ros/melodic/include/geometry_msgs/Point.h

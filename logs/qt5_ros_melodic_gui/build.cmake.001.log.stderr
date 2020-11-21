@@ -1,0 +1,28 @@
+CMake Warning at /home/dong/src/5qt/src/qt5_ros_melodic_gui/CMakeLists.txt:30 (find_package):
+  Found package configuration file:
+
+    /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake
+
+  but it set Qt5_FOUND to FALSE so package "Qt5" is considered to be NOT
+  FOUND.  Reason given by package:
+
+  Failed to find Qt5 component "WebEengineWidgets" config file at
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5WebEengineWidgets/Qt5WebEengineWidgetsConfig.cmake"
+
+
+
+
+
+
+CMake Warning (dev) at /home/dong/src/5qt/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake:133 (add_executable):
+  Policy CMP0028 is not set: Double colon in target name means ALIAS or
+  IMPORTED target.  Run "cmake --help-policy CMP0028" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  Target "nav_ui_node" links to target "Qt5::WebEngineWidgets" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+Call Stack (most recent call first):
+  CMakeLists.txt:73 (cs_add_executable)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

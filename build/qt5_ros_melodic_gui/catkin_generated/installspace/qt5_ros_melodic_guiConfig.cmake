@@ -177,7 +177,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(qt5_ros_melodic_gui_EXPORTED_TARGETS "")
+set(qt5_ros_melodic_gui_EXPORTED_TARGETS "qt5_ros_melodic_gui_generate_messages_cpp;qt5_ros_melodic_gui_generate_messages_eus;qt5_ros_melodic_gui_generate_messages_lisp;qt5_ros_melodic_gui_generate_messages_nodejs;qt5_ros_melodic_gui_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${qt5_ros_melodic_gui_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -185,7 +185,7 @@ foreach(t ${qt5_ros_melodic_gui_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "roscpp")
+set(depends "message_runtime;roscpp")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls
@@ -214,7 +214,7 @@ foreach(depend ${depends})
   list(APPEND qt5_ros_melodic_gui_EXPORTED_TARGETS ${${qt5_ros_melodic_gui_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "qt5_ros_melodic_gui-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${qt5_ros_melodic_gui_DIR}/${extra})

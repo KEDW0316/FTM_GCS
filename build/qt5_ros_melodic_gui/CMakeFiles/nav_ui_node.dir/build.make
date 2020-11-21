@@ -59,6 +59,7 @@ include CMakeFiles/nav_ui_node.dir/flags.make
 
 qrc_images.cpp: /home/dong/src/5qt/src/qt5_ros_melodic_gui/resources/images/icon.png
 qrc_images.cpp: /home/dong/src/5qt/src/qt5_ros_melodic_gui/resources/images/logo.png
+qrc_images.cpp: /home/dong/src/5qt/src/qt5_ros_melodic_gui/resources/images/test1.html
 qrc_images.cpp: /home/dong/src/5qt/src/qt5_ros_melodic_gui/resources/images.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dong/src/5qt/build/qt5_ros_melodic_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_images.cpp"
 	/usr/lib/qt5/bin/rcc --name images --output /home/dong/src/5qt/build/qt5_ros_melodic_gui/qrc_images.cpp /home/dong/src/5qt/src/qt5_ros_melodic_gui/resources/images.qrc
@@ -222,8 +223,16 @@ nav_ui_node_EXTERNAL_OBJECTS =
 /home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 /home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libQt5WebEngineWidgets.so.5.9.5
+/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libQt5WebEngineCore.so.5.9.5
+/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libQt5WebChannel.so.5.9.5
+/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libQt5Positioning.so.5.9.5
+/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5.9.5
+/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.9.5
+/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.9.5
 /home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
 /home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
+/home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.9.5
 /home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 /home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node: CMakeFiles/nav_ui_node.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dong/src/5qt/build/qt5_ros_melodic_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /home/dong/src/5qt/devel/lib/qt5_ros_melodic_gui/nav_ui_node"

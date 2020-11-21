@@ -3,6 +3,6 @@ prefix=/home/dong/src/5qt/devel
 Name: qt5_ros_melodic_gui
 Description: Description of qt5_ros_melodic_gui
 Version: 0.1.0
-Cflags: -I/home/dong/src/5qt/src/qt5_ros_melodic_gui/include
+Cflags: -I/home/dong/src/5qt/devel/include -I/home/dong/src/5qt/src/qt5_ros_melodic_gui/include
 Libs: -L${prefix}/lib 
-Requires: roscpp
+Requires: message_runtime roscpp

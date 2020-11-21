@@ -1,0 +1,32 @@
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:[m[K In member function '[01m[Kbool nav_ui::QNode::ee_target_pos(float, float, float, float, float)[m[K':
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:64:33:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kee_y[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::ee_target_pos(float [01;35m[Kee_y[m[K, float ee_x, float ee_z,  float ee_phi, float ee_theta){
+                                 [01;35m[K^~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:64:45:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kee_x[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::ee_target_pos(float ee_y, float [01;35m[Kee_x[m[K, float ee_z,  float ee_phi, float ee_theta){
+                                             [01;35m[K^~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:64:57:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kee_z[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::ee_target_pos(float ee_y, float ee_x, float [01;35m[Kee_z[m[K,  float ee_phi, float ee_theta){
+                                                         [01;35m[K^~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:64:70:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kee_phi[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::ee_target_pos(float ee_y, float ee_x, float ee_z,  float [01;35m[Kee_phi[m[K, float ee_theta){
+                                                                      [01;35m[K^~~~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:64:84:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kee_theta[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::ee_target_pos(float ee_y, float ee_x, float ee_z,  float ee_phi, float [01;35m[Kee_theta[m[K){
+                                                                                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:[m[K In member function '[01m[Kbool nav_ui::QNode::joint_target_pos(float, float, float, float, float)[m[K':
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:68:36:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kq_y[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::joint_target_pos(float [01;35m[Kq_y[m[K, float q_x, float q_alpha, float q_beta, float q_d){
+                                    [01;35m[K^~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:68:47:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kq_x[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::joint_target_pos(float q_y, float [01;35m[Kq_x[m[K, float q_alpha, float q_beta, float q_d){
+                                               [01;35m[K^~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:68:58:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kq_alpha[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::joint_target_pos(float q_y, float q_x, float [01;35m[Kq_alpha[m[K, float q_beta, float q_d){
+                                                          [01;35m[K^~~~~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:68:73:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kq_beta[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::joint_target_pos(float q_y, float q_x, float q_alpha, float [01;35m[Kq_beta[m[K, float q_d){
+                                                                         [01;35m[K^~~~~~[m[K
+[01m[K/home/dong/src/5qt/src/qt5_ros_melodic_gui/src/qnode.cpp:68:87:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kq_d[m[K' [[01;35m[K-Wunused-parameter[m[K]
+ bool QNode::joint_target_pos(float q_y, float q_x, float q_alpha, float q_beta, float [01;35m[Kq_d[m[K){
+                                                                                       [01;35m[K^~~[m[K

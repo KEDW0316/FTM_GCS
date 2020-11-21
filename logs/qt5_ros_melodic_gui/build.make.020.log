@@ -1,0 +1,25 @@
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target _qt5_ros_melodic_gui_generate_messages_check_deps_log
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  6%] Built target qt5_ros_melodic_gui_generate_messages_lisp
+[ 18%] Built target qt5_ros_melodic_gui_generate_messages_eus
+[ 37%] Built target qt5_ros_melodic_gui_generate_messages_nodejs
+[ 37%] Built target qt5_ros_melodic_gui_generate_messages_py
+[ 43%] Built target qt5_ros_melodic_gui_generate_messages_cpp
+[ 50%] [34m[1mAutomatic MOC for target nav_ui_node[0m
+[ 50%] Built target qt5_ros_melodic_gui_generate_messages
+[ 50%] Built target nav_ui_node_autogen
+[100%] Built target nav_ui_node

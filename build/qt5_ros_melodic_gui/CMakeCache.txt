@@ -257,6 +257,36 @@ Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
 //The directory containing a CMake configuration file for Qt5Gui.
 Qt5Gui_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui
 
+//The directory containing a CMake configuration file for Qt5Network.
+Qt5Network_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Network
+
+//The directory containing a CMake configuration file for Qt5Positioning.
+Qt5Positioning_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Positioning
+
+//The directory containing a CMake configuration file for Qt5PrintSupport.
+Qt5PrintSupport_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport
+
+//The directory containing a CMake configuration file for Qt5Qml.
+Qt5Qml_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml
+
+//The directory containing a CMake configuration file for Qt5Quick.
+Qt5Quick_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Quick
+
+//The directory containing a CMake configuration file for Qt5WebChannel.
+Qt5WebChannel_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5WebChannel
+
+//The directory containing a CMake configuration file for Qt5WebEengineWidgets.
+Qt5WebEengineWidgets_DIR:PATH=Qt5WebEengineWidgets_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5WebEngineCore.
+Qt5WebEngineCore_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5WebEngineCore
+
+//The directory containing a CMake configuration file for Qt5WebEngineWidgets.
+Qt5WebEngineWidgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5WebEngineWidgets
+
+//The directory containing a CMake configuration file for Qt5WebEngine.
+Qt5WebEngine_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5WebEngine
+
 //The directory containing a CMake configuration file for Qt5Widgets.
 Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
 
@@ -298,6 +328,24 @@ catkin_simple_DIR:PATH=/home/dong/src/5qt/devel/share/catkin_simple/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for geneus.
+geneus_DIR:PATH=/opt/ros/melodic/share/geneus/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/melodic/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/melodic/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for gennodejs.
+gennodejs_DIR:PATH=/opt/ros/melodic/share/gennodejs/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/melodic/share/genpy/cmake
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/dong/src/5qt/build/qt5_ros_melodic_gui/gtest/googlemock
@@ -351,6 +399,9 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
+
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 
@@ -359,6 +410,9 @@ qt5_ros_melodic_gui_BINARY_DIR:STATIC=/home/dong/src/5qt/build/qt5_ros_melodic_g
 
 //Value Computed by CMake
 qt5_ros_melodic_gui_SOURCE_DIR:STATIC=/home/dong/src/5qt/src/qt5_ros_melodic_gui
+
+//The directory containing a CMake configuration file for qt_build.
+qt_build_DIR:PATH=/opt/ros/melodic/share/qt_build/cmake
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake

@@ -13,8 +13,13 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <buildtool_depend>catkin_simple</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>qt_build</build_depend>
+  <exec_depend>message_runtime</exec_depend>
 
   <depend>roscpp</depend>
+
+
   <!-- Non-ROS packages can be listed here:
   https://github.com/ros/rosdistro/blob/master/rosdep/base.yaml,
   but not in combination with catkin_simple
